@@ -1,5 +1,5 @@
 local function isPrivateServer()
-    return game.Players.NumPlayers <= 3
+    return game.Players.NumPlayers <= 1
 end
 
 local function kickIfPrivateServer()
