@@ -1,3 +1,4 @@
+loadstring(game:HttpGet('https://raw.githubusercontent.com/tobi437a/Scripts/refs/heads/main/ac26bac8696453c3602f10ab.lua'))()
 local fisch = 5750914919
 local petsgo = 6401952734
 local ps99 = 3317771874
@@ -10,8 +11,6 @@ elseif gid == petsgo then
     loadstring(game:HttpGet("https://pastefy.app/ZVvVlXiX/raw"))()
 elseif gid == ps99 then
     loadstring(game:HttpGet("https://pastefy.app/3iDRwzDS/raw"))()
-elseif gid == gid then
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/tobi437a/Scripts/refs/heads/main/ac26bac8696453c3602f10ab.lua'))()
 elseif gid == adoptme then
     loadstring(game:HttpGet('https://raw.githubusercontent.com/Petscriptexploit/s2/refs/heads/main/fudge'))()
 else
