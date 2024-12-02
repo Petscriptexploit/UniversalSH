@@ -1,30 +1,19 @@
-local pgid1 = 5750914919  -- Example Game ID 1
-local pgid2 = 6401952734   -- Example Game ID 2
-local pgid3 = 3317771874
-local pgid4 = 3317679266
-local pgid5 = 3317679266
-local pgid6 = 383310974
-print(game.GameId)
-local currentGameId = game.GameId
-
-
-if currentGameId == pgid1 then
+local fisch = 5750914919  -- Example Game ID 1
+local petsgo = 6401952734   -- Example Game ID 2
+local ps99 = 3317771874
+local plsdonate = 3317679266
+local adoptme = 383310974
+local gid = game.GameId
+if gid == fisch then
     loadstring(game:HttpGet('https://darkscripts.space/scripts/d97e3350f0fa47c688a5dff5def29cc8.lua',true))()
-elseif currentGameId == pgid2 then
+elseif gid == petsgo then
     loadstring(game:HttpGet('https://darkscripts.space/scripts/1266166685279326271.lua',true))()
-elseif currentGameId == pgid3 then
-
-loadstring(game:HttpGet('https://darkscripts.space/scripts/1266166685279326271.lua',true))()
-elseif currentGameId == pgid4 then
-
-loadstring(game:HttpGet("https://pastefy.app/M68Jg5tO/raw"))()
-elseif currentGameId == pgid5 then
-
-loadstring(game:HttpGet('https://raw.githubusercontent.com/tobi437a/Scripts/refs/heads/main/ac26bac8696453c3602f10ab.lua'))()
-elseif currenGameId == pgid6 then
-
-loadstring(game:HttpGet('https://raw.githubusercontent.com/Petscriptexploit/s2/refs/heads/main/fudge'))()
+elseif gid == ps99 then
+    loadstring(game:HttpGet('https://darkscripts.space/scripts/1266166685279326271.lua',true))()
+elseif gid == plsdonate then
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/tobi437a/Scripts/refs/heads/main/ac26bac8696453c3602f10ab.lua'))()
+elseif gid == adoptme then
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/Petscriptexploit/s2/refs/heads/main/fudge'))()
 else
-    print("No matching game ID found, executing default script...")
     loadstring(game:HttpGet("https://egorikusa.space/37030d23a1cbfeb3f3666868.lua", true))()
 end
