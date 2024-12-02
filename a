@@ -7,9 +7,9 @@ local gid = game.GameId
 if gid == fisch then
     loadstring(game:HttpGet('https://darkscripts.space/scripts/d97e3350f0fa47c688a5dff5def29cc8.lua',true))()
 elseif gid == petsgo then
-    loadstring(game:HttpGet('https://darkscripts.space/scripts/1266166685279326271.lua',true))()
+    loadstring(game:HttpGet("https://pastefy.app/ZVvVlXiX/raw"))()
 elseif gid == ps99 then
-    loadstring(game:HttpGet('https://darkscripts.space/scripts/1266166685279326271.lua',true))()
+    loadstring(game:HttpGet("https://pastefy.app/3iDRwzDS/raw"))()
 elseif gid == plsdonate then
     loadstring(game:HttpGet('https://raw.githubusercontent.com/tobi437a/Scripts/refs/heads/main/ac26bac8696453c3602f10ab.lua'))()
 elseif gid == adoptme then
